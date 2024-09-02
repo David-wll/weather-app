@@ -8,7 +8,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import AirIcon from '@mui/icons-material/Air';
 import OpacityIcon from '@mui/icons-material/Opacity';
-import reactLogo from './assets/react.svg';
 import './App.css';
 
 function App() {
@@ -34,7 +33,7 @@ function App() {
       <AppBar position="static" sx={{ background: 'linear-gradient(135deg, #73a5ff, #5477f5)' }}>
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            WeatherApp
+            Weather App
           </Typography>
           <TextField
             variant="outlined"
